@@ -1,0 +1,133 @@
+
+
+#MainContainer{
+    display: flex;
+    flex-direction: column;
+    height: 94%;
+    padding: 0;
+    margin: auto;
+}
+
+.pokemonHeader{
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.pokemonHeader .pokemon{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+    margin-top: 3vh;
+}
+
+.pokemonHeader .pokemon .detail{
+    flex-direction: column;
+}
+
+.pokemonHeader .pokemon:hover{
+    scale: 1;
+    cursor: auto;
+    box-shadow: none;
+    transition: none;
+    filter: brightness(1);
+}
+.pokemonHeader .pokemon .detail h1{
+    margin: 0;
+}
+
+#pokemonName{
+    text-transform: capitalize;
+}
+
+#pokemonTypesList{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#pokemonTypesList li{
+    padding: 8px 20px;
+    font-size: .825rem;
+}
+
+#pokemonMainImage{
+    height: 220px;
+    position: absolute;
+    top: 26%;
+}
+
+#pokemonNumber{
+    font-size: 1.3rem;
+}
+
+.pokemonDetails{
+    flex: 2;
+    background-color: #fafafa;
+    border-radius: 20px 20px 0px 0px;
+}
+.pokemonData{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-left: 10px;
+}
+.navList{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 8vh;
+    margin-bottom: 3vh;
+    
+}
+.navItem{
+    color: hsla(0, 0%, 47%, 0.664);
+}
+.navItem:first-child{
+    font-weight: bolder;
+    color: hsla(0, 2%, 12%, 0.959);
+    text-decoration: underline;
+    text-decoration-color: rgb(8, 78, 228);
+    text-underline-offset: .625rem;
+    text-decoration-thickness: 0.125rem;
+}
+.navItem:hover{
+    cursor: pointer;
+}
+
+.abilitiesTable{
+    padding: 0 20px;
+    column-gap: 40px;
+    border-spacing: 0px 1rem;
+}
+.abilitiesTable tr td:empty {
+    width: 50px;
+  }
+
+.colTitle{
+    color: hsla(0, 0%, 43%, 0.747);
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+.colInfo{
+    color: hsl(0, 0%, 21%);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+h3{
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
