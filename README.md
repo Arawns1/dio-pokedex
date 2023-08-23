@@ -1,5 +1,5 @@
 # Projeto Pokedéx - Dio.me
-Pokedéx realizada durante o Bootacamp Santander oferecido pela Dio.me.
+Pokedéx realizada durante o Bootcamp Santander oferecido pela Dio.me.
 
 [🔗 Link do Projeto](https://arawns1.github.io/dio-pokedex/src/pages/home/index.html)
 
